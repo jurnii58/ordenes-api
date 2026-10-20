@@ -1,0 +1,48 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Práctica 1: Iniciar Servidor (FastAPI)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "fastapi",
+      "args": ["dev", "app/main.py"],
+      "cwd": "${workspaceFolder}/practica1",
+      "jinja": true
+    },
+    {
+      "name": "Práctica 2: Iniciar Servidor (FastAPI)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "fastapi",
+      "args": ["dev", "app/main.py"],
+      "cwd": "${workspaceFolder}/practica2",
+      "jinja": true
+    },
+    {
+      "name": "Práctica 2: Ejecutar Pruebas (Pytest)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-v"],
+      "cwd": "${workspaceFolder}/practica2"
+    },
+    {
+      "name": "Práctica 3: Iniciar Servidor (FastAPI)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "fastapi",
+      "args": ["dev", "app/main.py"],
+      "cwd": "${workspaceFolder}/practica3-inicial-alumnos",
+      "jinja": true
+    },
+    {
+      "name": "Práctica 3: Ejecutar Pruebas (Pytest)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-v"],
+      "cwd": "${workspaceFolder}/practica3-inicial-alumnos"
+    }
+  ]
+}
