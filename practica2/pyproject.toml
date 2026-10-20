@@ -1,0 +1,14 @@
+[project]
+name = "ordenes-api"
+version = "0.2.0"
+requires-python = ">=3.12"
+dependencies = ["fastapi[standard]>=0.115"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
